@@ -10,4 +10,7 @@ def countdown(number)
 end
 
 def countdown_with_sleep(number)
-  
+  5.times do
+    sleep(1)
+  end
+end
